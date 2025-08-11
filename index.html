@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Séquito Gin - Destilería Artesanal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-navigation">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link nav-logo">
+                        <img src="assets/logo.png" alt="Séquito Gin" width="24" height="24">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cart" class="nav-link nav-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#727272">
+                            <path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home" class="hero-section">
+        <img src="assets/logo-brand.png" alt="Séquito Gin" class="hero-logo">
+    </main>
+
+    <section id="products" class="products-section">
+        <div class="product-card" id="classic">
+            <header class="product-header">
+                <h2 class="product-title">Clásico</h2>
+                <p class="product-description">Un London Dry Gin super suave y refrescante. Contiene enebro, romero, jengibre y cítricos, lo que lo vuelve un gin delicioso y versátil.</p>
+            </header>
+            <div class="product-display">
+                <img src="assets/classic.jpg" alt="Séquito Gin Clásico" class="product-image">
+                <div class="product-overlay">
+                    <span class="product-price">$13500</span>
+                    <button class="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card" id="pea">
+            <header class="product-header">
+                <h2 class="product-title">Pea Flower</h2>
+                <p class="product-description">Infusionada con la flor Clitoria ternatea, este gin es aromático y dulce. Además, esta flor funciona como indicador de pH, y al preparar tu gin tonic, vas a ver como cambia el color del gin desde un azul a un violeta. Simplemente maravilloso!</p>
+            </header>
+            <div class="product-display">
+                <img src="assets/pea.jpg" alt="Séquito Gin Pea Flower" class="product-image">
+                <div class="product-overlay">
+                    <span class="product-price">$16200</span>
+                    <button class="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card" id="rubi">
+            <header class="product-header">
+                <h2 class="product-title">Rubí</h2>
+                <p class="product-description">Macerado con enebro, pimienta de Jamaica, cacao, limón, raíz de angélica y clavo de olor. Infusionado post destilación con moras.</p>
+            </header>
+            <div class="product-display">
+                <img src="assets/rubi.jpg" alt="Séquito Gin Rubí" class="product-image">
+                <div class="product-overlay">
+                    <span class="product-price">$17000</span>
+                    <button class="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <a href="https://wa.me/+5493425218014" target="_blank">
+            <img src="assets/whatsapp.png" alt="WhatsApp" width="24" height="24">
+            <span>Contactanos por WhatsApp</span>
+        </a>
+        <a href="https://www.instagram.com/sequito.gin/" target="_blank">
+            <img src="assets/instagram.png" alt="Instagram" width="24" height="24">
+            <span>Seguinos en Instagram</span>
+        </a>
+    </section>
+
+    <a id="next-section" href="#home" class="scroll-indicator">
+        <span class="scroll-text">Inicio</span>
+        <svg class="scroll-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#727272">
+            <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/>
+        </svg>
+    </a>
+
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
