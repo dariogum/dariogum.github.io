@@ -7,19 +7,19 @@ class ShoppingCart {
                 id: 'classic',
                 name: 'Clásico',
                 price: 13500,
-                image: 'assets/classic.jpg'
+                image: 'classic.jpg'
             },
             pea: {
                 id: 'pea',
                 name: 'Pea Flower',
                 price: 16200,
-                image: 'assets/pea.jpg'
+                image: 'pea.jpg'
             },
             rubi: {
                 id: 'rubi',
                 name: 'Rubí',
                 price: 17000,
-                image: 'assets/rubi.jpg'
+                image: 'rubi.jpg'
             }
         };
         this.init();
